@@ -1,0 +1,12 @@
+3-) Quais são os planos, valores e limites de downloads?
+
+
+MariaDB [exemplo_musica]> SELECT DESCRICAO,VALOR,LIMITE FROM PLANOS;
++-----------+-------+--------+
+| DESCRICAO | VALOR | LIMITE |
++-----------+-------+--------+
+| Light     | 29.99 |    100 |
+| Sem nome  | 39.99 |    500 |
+| Full      | 49.99 | 999999 |
++-----------+-------+--------+
+3 rows in set (0.001 sec)

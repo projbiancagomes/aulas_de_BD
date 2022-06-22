@@ -1,0 +1,27 @@
+5-) Liste os artistas que fizeram contrato com a gravadora 2.
+
+MariaDB [exemplo_musica]> SELECT NOME FROM ARTISTAS WHERE GRAVADORAS_ID;
++----------------------+
+| NOME                 |
++----------------------+
+| Mano Lima            |
+| Shakira              |
+| Luiz Marenco         |
+| Pedro Capó           |
+| Farruko              |
+| Alicia Keys          |
+| Joca Martins         |
+| José Cláudio Machado |
+| Luis Fonsi           |
+| Nicky Jam            |
+| Enrique Iglesias     |
+| Gente de Zona        |
+| Descemer Bueno       |
+| Zion                 |
+| Lennox               |
+| Maluma               |
+| Anitta               |
+| Mettallica           |
+| MC Créu              |
++----------------------+
+19 rows in set (0.001 sec)

@@ -1,0 +1,28 @@
+6-) Mostre os artistas em ordem Alfabética.
+
+MariaDB [exemplo_musica]> SELECT NOME FROM ARTISTAS
+    -> ORDER BY NOME;
++----------------------+
+| NOME                 |
++----------------------+
+| Alicia Keys          |
+| Anitta               |
+| Descemer Bueno       |
+| Enrique Iglesias     |
+| Farruko              |
+| Gente de Zona        |
+| Joca Martins         |
+| José Cláudio Machado |
+| Lennox               |
+| Luis Fonsi           |
+| Luiz Marenco         |
+| Maluma               |
+| Mano Lima            |
+| MC Créu              |
+| Mettallica           |
+| Nicky Jam            |
+| Pedro Capó           |
+| Shakira              |
+| Zion                 |
++----------------------+
+19 rows in set (0.001 sec)
